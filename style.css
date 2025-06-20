@@ -1,0 +1,145 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e3c2c2;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 100px;
+  max-width: 100%;
+  display: block;
+}
+
+.menu-toggle {
+  position: absolute;
+  right: 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Menú desplegable */
+.menu-contacto {
+  display: none;
+  background-color: #f5dede;
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.menu-contacto.activo {
+  display: block;
+}
+
+/* Productos */
+.productos {
+  padding: 4rem 2rem;
+  background-color: #d688db;
+  text-align: center;
+}
+
+.producto {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+select, input, textarea, button {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Quicksand';
+}
+
+#boton-wpp {
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 0.6rem;
+}
+
+/* Sobre nosotros */
+#sobre {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Contacto */
+#contacto {
+  padding: 4rem 2rem;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+button[type="submit"] {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #a93226;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.redes a {
+  color: white;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* WhatsApp flotante */
+.wpp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  z-index: 999;
+}
+
+textarea {
+  resize: none;
+}

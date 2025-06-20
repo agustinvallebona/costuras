@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Costuras Manuales</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <div class="logo">
+      <img src="logo/logoeva.png" alt="Logo" />
+    </div>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- MENÚ CONTACTO (inicialmente oculto) -->
+  <div class="menu-contacto" id="menu-contacto">
+    <p><strong>Contacto:</strong></p>
+    <p>Email: evanadiguilldlsant98@gmail.com</p>
+    <p>Teléfono: 093 954 773</p>
+    <p>Instagram: nadeevii</p>
+    <p>Facebook: Nadevi</p>
+    <p><em>Diseños únicos hechos a mano con amor y creatividad.</em></p>
+  </div>
+
+  <!-- PRODUCTOS -->
+  <section id="productos" class="productos">
+    <h2>Nuestros productos</h2>
+    <div class="producto">
+      <label for="producto-select">Elegí un producto:</label>
+      <select id="producto-select">
+        <option value="matera">Matera</option>
+        <option value="tarjetero">Tarjetero</option>
+        <option value="funda-libro">Funda para libro</option>
+        <option value="neceser">Neceser</option>
+        <option value="funda-maquina">Funda de máquina</option>
+      </select>
+
+      <img id="imagen-producto" src="assets/matera.jpg" alt="Producto artesanal" />
+      
+      <a id="boton-wpp" href="https://wa.me/093954773" target="_blank">Encargar por WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos un emprendimiento de costura creativa. Cada pieza es única y hecha con dedicación, combinando tradición y diseño moderno.</p>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section id="contacto">
+    <h2>¿Querés un diseño personalizado?</h2>
+    <p>Contanos tu idea y te ayudamos a hacerlo realidad.</p>
+    <p>contactame por Gmail o WhatsApp</p>
+    <form>
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Correo electrónico" required />
+      <textarea placeholder="Describí tu idea..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- PIE -->
+  <footer>
+    <p>&copy; 2025 Costuras Manuales</p>
+    <div class="redes">
+      <a href="https://www.instagram.com/nadeevii?igsh=c3IweXRreHIxMHNx"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/share/16kWjSoCLa/"><i class="fab fa-facebook"></i></a>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/093954773" class="wpp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</body>
+</html>
